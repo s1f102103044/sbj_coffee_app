@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+#container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #00704a;
+}
+
+h1, .flavor-category h2, button, .img-container, p, form {
+    text-align: center;
+}
+
+.flavor-category {
+    margin-bottom: 20px;
+}
+
+.flavor-category h2 {
+    margin-bottom: 10px;
+    color: #005c3c;
+}
+
+.flavor-category label {
+    display: flex;
+    justify-content: flex-start;
+    margin: 5px auto;
+    width: 100%;
+    max-width: 250px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #00704a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #005c3c;
+}
+
+.img-container {
+    margin-top: 20px;
+}
+
+.img-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+#flavor-form, #result-container {
+    text-align: center;
+}
+
+#search-again {
+    margin-top: 10px;
+}
+
